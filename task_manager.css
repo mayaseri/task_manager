@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-nav{
+    padding-left:40px;
+    padding-right:30px;
+}
+
+.navbar{
+    padding-right: 30px;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+}
+
+.nav-item{
+    font-size: 15px;
+
+}
+.navbar-brand{
+    padding-left: 30px;
+}
+
+.navbar-nav li{
+    padding-left: 10px;
+}
+
+.navbar-nav li:focus{
+    color: blueviolet;
+}
+
+.navbar{
+    height: 50px;
+    background-color: white;
+    color: white;
+}
+
+.page-content{
+    background-color: #f9fcff;
+    height: 800px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-headline-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.page-headline-row button{
+    background-color: #2f26b9;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 15px;
+    border: 0;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.tasks-tab{
+    display: flex;
+    flex-direction: row;
+    /* gap: 30px; */
+    width: 100%;
+    height: 100%;
+
+}
+
+.task-category-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f8;
+    color: #3e444c;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 7px;
+    height: 500px;
+    width: 20%;
+
+}
+
+.tasks-container-headline-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tasks-container-headline-row button{
+    background-color: white;
+    color: #3e444c;
+    border: solid #eef1f5 0.5px;
+    border-radius: 5px;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    /* padding: 10px; */
+    width: 100%;
+    /* margin: 5px 0; */
+    border: 0;
+    border-radius: 7px;
+
+}
+
+/* #addTaskPopup{
+    display: 'flex';
+	justify-content: 'center';
+	align-items: 'center';
+} */
+
+.taskItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 7px 0;
+
+}
